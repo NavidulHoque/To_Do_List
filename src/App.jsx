@@ -6,11 +6,10 @@ import { ToDoListProvider } from './context/ToDoListContext'
 
 function App() {
   
-
   return (
     <ToDoListProvider>
 
-      <div className='bg-slate-100 min-h-screen'>
+      <div className='bg-slate-100 min-h-screen dark:bg-black'>
 
         <Navbar />
 

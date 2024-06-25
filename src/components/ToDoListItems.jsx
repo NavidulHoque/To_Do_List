@@ -27,7 +27,7 @@ const ToDoListItems = () => {
     }
 
     return (
-        <div className='container w-[90vw] md:w-[75vw] lg:w-[52vw] bg-violet-100 mx-auto rounded-lg p-[20px] mt-[20px] flex flex-col gap-y-7'>
+        <div className='container w-[90vw] md:w-[75vw] lg:w-[52vw] bg-violet-100 dark:bg-[rgb(45,45,45)] dark:text-white mx-auto rounded-lg p-[20px] mt-[20px] flex flex-col gap-y-7'>
 
             <h1 className='font-bold text-[30px] text-center'>iTask - Manage your todos in one place</h1>
 
@@ -37,7 +37,7 @@ const ToDoListItems = () => {
 
                 <div className='flex gap-x-3'>
 
-                    <input type="text" className='w-[90%] rounded-3xl py-[5px] px-[10px] outline-none focus:border-black focus:border-2' onChange={handleRecentTodoItem} value={recentTodoItem} autoFocus />
+                    <input type="text" className='w-[90%] rounded-3xl py-[5px] px-[10px] outline-none focus:border-black focus:border-2 text-black' onChange={handleRecentTodoItem} value={recentTodoItem} autoFocus />
 
                     <button onClick={handleAdd} className="bg-violet-500 hover:bg-violet-600 rounded-3xl text-white py-[8px] px-[15px]">Add</button>
 
