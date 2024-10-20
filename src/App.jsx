@@ -12,7 +12,7 @@ function App() {
 
     <div className={theme}>
 
-      <div className='bg-slate-100 min-h-screen dark:bg-black transition-all duration-200'>
+      <div className='bg-slate-100 min-h-screen dark:bg-black transition-all duration-200 text-lg md:text-xl lg:text-2xl'>
 
         <Navbar theme={theme} setTheme={setTheme} />
 
